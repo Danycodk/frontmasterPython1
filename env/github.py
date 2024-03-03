@@ -1,8 +1,7 @@
 """
-A small Python program that uses the GitHub search API to list
-the top projects by language, based on stars.
+# A small Python program that uses the GitHub search API to list
+# the top projects by language, based on stars.
 """
-
 import requests
 
 GITHUB_API_URL = "https://api.github.com/search/repositories"
