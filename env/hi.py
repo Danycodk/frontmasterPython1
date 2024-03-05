@@ -5,6 +5,6 @@
 # name = len(input("what is the name"))
 # print("your name has"+ name + "charatere")
 ##########################################
-height = int(input())
+height = float(input())
 weight = int(input())
 print(weight / height**2)
