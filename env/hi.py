@@ -3,7 +3,7 @@
 # print("Hello"[4])
 ######################################################
 # name = len(input("what is the name"))
-# print("your name has"+ name + "charatere")
+# print("your name has"+ name + "charatere")git
 ##########################################
 height = float(input())
 weight = int(input())
