@@ -10,7 +10,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 ##############################################111111111111111111
 letters_total = ""
 for i in range(0, nr_letters +1):# loop 0 and The number of THE USER
-  random_letters = random.randint(0,len(letters)) # give a random number between 0 - number length of letter
+  random_letters = random.randint(0,len(letters)-1) # give a random number between 0 - number length of letter
   letters_total += letters[random_letters]
 #   print(letters[random_letters])
 #   
@@ -21,16 +21,22 @@ for i in range(0, nr_numbers +1):# loop 0 and The number of THE USER
   random_numbers = random.randint(0,len(numbers) -1) # give a random number between 0 - number length of letter
   numbers_total += numbers[random_numbers]
   print(numbers[random_numbers])
-print(numbers_total)
 ##############################################
 ##############################################33333333333333333333
 symbols_total = ""
 for i in range(0, nr_symbols +1):# loop 0 and The number of THE USER
   random_symbols = random.randint(0,len(symbols) -1) # give a random number between 0 - number length of letter
   symbols_total += symbols[random_symbols]
-#   print(symbols[random_symbols])
+  print(symbols[random_symbols])
 #   
 ##############################################
 real_total = symbols_total + numbers_total + letters_total
-print(f" There the password {real_total} winnnnnnnnnn!!!!!!!")
+my_password = ""
+for i in range(0 , len(real_total) +1 ):
+  random_total = random.randint(0,len(real_total) -1)
+  my_password += real_total[random_total]
+  
+
+print(f"OHHH OO this the total{real_total}watch more")                  
+print(f" There the password {my_password} winnnnnnnnnn!!!!!!!")
   
